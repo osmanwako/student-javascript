@@ -35,12 +35,30 @@ main {
 
 .login-page {
   min-height: 375px;
-  max-width: 768px;
+  max-width: 478px;
   width: 100%;
 }
 
-form {
+.form-login {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+.login-control {
+  padding: 10px;
+  margin-top: 10px;
+}
+.input-login {
+  outline: none;
+  font-size: 18px;
+}
+
+.login-span {
+  padding: 0;
+  text-align: right;
+}
+.button-login {
+  padding: 8px;
+  font-size: 18px;
+  background-color: transparent;
 }
